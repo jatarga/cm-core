@@ -2,14 +2,13 @@ package com.cm.core;
 
 import android.view.View;
 import android.widget.Button;
-import android.widget.ImageView;
 
-class BuyViewHolder extends BaseViewHolder {
+class BUVH extends BVH {
 
     public static final int TYPE = 0;
     Button mBuyButton;
 
-    BuyViewHolder(View itemView) {
+    BUVH(View itemView) {
         super(itemView);
         mBuyButton = itemView.findViewById(R.id.BuyButton);
     }

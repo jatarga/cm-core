@@ -3,12 +3,12 @@ package com.cm.core;
 import android.view.View;
 import android.widget.ImageView;
 
-class ImageViewHolder extends BaseViewHolder {
+class IVH extends BVH {
 
     public static final int TYPE = 1;
     ImageView mImageView;
 
-    ImageViewHolder(View itemView) {
+    IVH(View itemView) {
         super(itemView);
         mImageView = itemView.findViewById(R.id.ImageView);
     }
