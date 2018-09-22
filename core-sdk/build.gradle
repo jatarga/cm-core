@@ -18,12 +18,8 @@ android {
 
 dependencies {
     implementation fileTree(dir: 'libs', include: ['*.jar'])
-    implementation ('com.anjlab.android.iab.v3:library:1.0.44', {
-        transitive=true
-    })
-    implementation ('com.squareup.picasso:picasso:2.71828', {
-        transitive=true
-    })
+    implementation 'com.anjlab.android.iab.v3:library:1.0.44'
+    implementation 'com.squareup.picasso:picasso:2.71828'
     implementation 'com.github.DingMouRen:LayoutManagerGroup:1e6f4f96eb'
 
 }
